@@ -14,9 +14,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.black,
         body: Column(
-          
           children: [
-           Padding(padding: EdgeInsets.only(top: 200)),
+            Padding(padding: EdgeInsets.only(top: 200)),
             Center(
               child: SizedBox(
                 width: 100,
@@ -44,11 +43,10 @@ class MyApp extends StatelessWidget {
                         decoration: const BoxDecoration(
                           color: Color(0xFF6B5ECD),
                           borderRadius: BorderRadius.only(
-                             bottomLeft: Radius.circular(50),
+                            bottomLeft: Radius.circular(50),
                             bottomRight: Radius.circular(0),
                             topLeft: Radius.circular(0),
                             topRight: Radius.circular(50),
-                          
                           ),
                         ),
                       ),
@@ -129,7 +127,7 @@ class MyApp extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    padding: EdgeInsets.only(right: 5, top: 2),
+                    padding: EdgeInsets.only(right: 7, top: 2),
                     child: Image.network(
                       'https://img.icons8.com/?size=512&id=17949&format=png',
                       width: 20,
@@ -156,7 +154,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(padding: EdgeInsets.only(top: 30)),
+            Padding(padding: EdgeInsets.only(top: 40)),
             Container(
               child: Text(
                 'Already have an account? Sing in',
